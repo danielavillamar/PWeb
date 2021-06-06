@@ -1,0 +1,26 @@
+.suggestionpage-s-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 7rem;
+  border-bottom: 0.2px solid rgba(255, 255, 255, 0.1);
+  border-right: 0.2px solid rgba(255, 255, 255, 0.1);
+  border-left: 0.2px solid rgba(255, 255, 255, 0.1);
+}
+
+.suggestionpage-s-container .img img {
+  width: 3rem;
+  margin-right: 2rem;
+}
+
+.suggestionpage-s-container .suggestion-user-name {
+  width: 30%;
+}
+
+.suggestion-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

@@ -1,0 +1,30 @@
+.suggestion-container {
+  margin-top: 1rem;
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0.25px solid #808080;
+  padding-bottom: 1rem;
+}
+
+.suggestion-container img {
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+.suggestion-container .suggestions-follow-btn {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: rgb(27, 149, 224);
+  cursor: pointer;
+}

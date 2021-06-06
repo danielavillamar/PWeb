@@ -1,0 +1,129 @@
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  height: 25rem;
+  width: 100%;
+  border-bottom: 0.2px solid rgba(255, 255, 255, 0.1);
+  border-right: 0.2px solid rgba(255, 255, 255, 0.1);
+  border-left: 0.2px solid rgba(255, 255, 255, 0.1);
+}
+
+.user-info-container .user-info {
+  display: flex;
+  flex-direction: row;
+  height: 20rem;
+  width: 100%;
+}
+
+.user-info .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+  padding-left: 3rem;
+}
+
+.info img {
+  width: 6rem;
+}
+
+.info .follows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.user-info .edit-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  width: 50%;
+}
+
+.edit-profile .edit-profile-btn {
+  display: flex;
+  color: rgb(27, 149, 224);
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid rgb(27, 149, 224);
+  margin-right: 2rem;
+  height: 2rem;
+  width: 8rem;
+  border-radius: 1rem;
+}
+
+.edit-profile-btn:hover {
+  background-color: rgb(29, 161, 242, 0.1);
+  transition: 0.3s;
+}
+
+.user-info-container .profile-navigation {
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.profile-navigation .navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+}
+
+.navigation h5 {
+  margin-left: 1rem;
+}
+
+.navigation img {
+  width: 1rem;
+}
+
+.navigation:hover {
+  color: rgb(27, 149, 224);
+  background-color: rgb(29, 161, 242, 0.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.fvnavigation:hover {
+  color: rgb(224, 36, 9);
+  background-color: rgba(189, 36, 36, 0.301);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.rtwnavigation:hover {
+  color: rgb(23, 191, 99);
+  background-color: rgba(36, 189, 61, 0.301);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.navigation.active {
+  color: rgb(27, 149, 224);
+  transition: 0.1s;
+  cursor: pointer;
+  border-bottom: 0.15rem solid rgb(27, 149, 224);
+}
+
+.navigation.fvactive {
+  color: rgb(224, 36, 9);
+  cursor: pointer;
+  border-bottom: 0.15rem solid rgb(224, 36, 9);
+}
+
+.navigation.rtwactive {
+  color: rgb(23, 191, 99);
+  cursor: pointer;
+  border-bottom: 0.15rem solid rgb(23, 191, 99);
+}
+
+.follows a {
+  color: #ffffff;
+}

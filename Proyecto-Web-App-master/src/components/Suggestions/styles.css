@@ -1,0 +1,37 @@
+.suggestions-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 15rem;
+  padding-top: 2rem;
+}
+
+.suggestions-container .suggestions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  width: 14rem;
+  border-radius: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.suggestions-container .suggestions .suggestions-title {
+  width: 100%;
+  padding-bottom: 0.75rem;
+  border-bottom: 0.25px solid #808080;
+}
+
+.suggestions-container .suggestions h4 {
+  margin: 0;
+  margin-left: 1rem;
+}
+
+.suggestions-container h5 {
+  color: rgb(27, 149, 224);
+  margin: 0;
+  margin-top: 1rem;
+}

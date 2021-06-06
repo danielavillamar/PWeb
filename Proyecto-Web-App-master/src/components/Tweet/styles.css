@@ -1,0 +1,92 @@
+ .tweet-main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  border-bottom: 0.2px solid rgba(255, 255, 255, 0.1);
+  border-right: 0.2px solid rgba(255, 255, 255, 0.1);
+  border-left: 0.2px solid rgba(255, 255, 255, 0.1);
+}
+
+.tweet-something-user-logo-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 10rem;
+}
+
+.tweet-something-user-logo-container img {
+  width: 4rem;
+}
+
+.tweet-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tweet-info .tweet-something-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tweet-info .tweet-something-user h3 {
+  margin-right: 0.75rem;
+}
+
+.tweet-info .tweet-something-user h5 {
+  color: #808080;
+}
+
+.tweet-info .tweet-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tweet-info .tweet-data .tweet-interaction {
+  display: flex;
+  flex-direction: row;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.tweet-interaction:hover {
+  color: rgb(27, 149, 224);
+  background-color: rgb(29, 161, 242, 0.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.tweet-interaction-fav:hover {
+  color: rgb(224, 36, 9);
+  background-color: rgba(189, 36, 36, 0.301);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.tweet-interaction-retweet:hover {
+  color: rgb(23, 191, 99);
+  background-color: rgba(36, 189, 61, 0.301);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.tweet-info-count {
+  color: #808080;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tweet-info-count p {
+  margin: 0;
+}
+
+.interaction-holder {
+  display: flex;
+  flex-direction: row;
+}

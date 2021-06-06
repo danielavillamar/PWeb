@@ -1,0 +1,12 @@
+.main-following-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(21, 32, 43);
+  color: #fff;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow: auto;
+  width: 100wh;
+}

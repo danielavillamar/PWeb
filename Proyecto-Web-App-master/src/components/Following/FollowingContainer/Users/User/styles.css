@@ -1,0 +1,77 @@
+.display-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 10rem;
+  border-bottom: 0.2px solid rgba(255, 255, 255, 0.1);
+  border-right: 0.2px solid rgba(255, 255, 255, 0.1);
+  border-left: 0.2px solid rgba(255, 255, 255, 0.1);
+}
+
+.display-user .user-pp {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.display-user .user-pp img {
+  width: 7rem;
+}
+
+.display-user .user-name {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  height: 100%;
+}
+
+.display-user .user-btn {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+}
+
+.unfollow {
+  display: flex;
+  color: rgb(27, 149, 224);
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid rgb(27, 149, 224);
+  margin-right: 2rem;
+  height: 2rem;
+  width: 8rem;
+  border-radius: 1rem;
+}
+
+.unfollow:hover {
+  font-size: 0;
+  background-color: rgb(224, 36, 9);
+  border: 0.5px solid rgb(224, 36, 9);
+}
+
+.unfollow:hover::after {
+  content: attr(data-hover);
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.follow {
+  display: flex;
+  background-color: rgb(27, 149, 224);
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+  height: 2rem;
+  width: 8rem;
+  border-radius: 1rem;
+}
+
+.follow:hover {
+  background-color: rgb(29, 161, 242, 0.1);
+  cursor: pointer;
+  color: rgb(27, 149, 224);
+  border: 0.5px solid rgb(27, 149, 224);
+}

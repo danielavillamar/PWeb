@@ -1,0 +1,52 @@
+.follow-navigation {
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+  width: 100%;
+  justify-content: center;
+  border-bottom: 0.2px solid rgba(255, 255, 255, 0.1);
+  border-right: 0.2px solid rgba(255, 255, 255, 0.1);
+  border-left: 0.2px solid rgba(255, 255, 255, 0.1);
+}
+
+.follow-navigation .following {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.follow-navigation .followers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.following:hover {
+  color: rgb(27, 149, 224);
+  background-color: rgb(29, 161, 242, 0.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.followers:hover {
+  color: rgb(27, 149, 224);
+  background-color: rgb(29, 161, 242, 0.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.following.active {
+  color: rgb(27, 149, 224);
+  transition: 0.1s;
+  cursor: pointer;
+  border-bottom: 0.15rem solid rgb(27, 149, 224);
+}
+
+.followers.active {
+  color: rgb(27, 149, 224);
+  transition: 0.1s;
+  cursor: pointer;
+  border-bottom: 0.15rem solid rgb(27, 149, 224);
+}
